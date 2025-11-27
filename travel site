@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Landing Page</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; color: #222; }
+    header img { width: 100%; height: 60vh; object-fit: cover; }
+    .section-title { font-size: 32px; font-weight: 700; margin: 40px 20px 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 0 20px; }
+    .card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card h3 { margin: 15px; font-size: 22px; }
+    .card p { margin: 0 15px 20px; color: #555; }
+    .btn { display: inline-block; margin: 0 15px 20px; padding: 10px 18px; background: #007bff; color: white; border-radius: 8px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach" />
+</header>
+
+<h2 class="section-title">Подорожі з сім'єю</h2>
+<div class="grid">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb" />
+    <h3>Подорожі з сім'єю</h3>
+    <p>Привабливі місця для відпочинку з дітьми</p>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" />
+    <h3>Подорожі для закоханих</h3>
+    <p>Романтичні країни для незабутніх вражень</p>
+  </div>
+</div>
+
+<h2 class="section-title">Поїздки з сім'єю</h2>
+<div class="grid">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" />
+    <h3>Іспанія</h3>
+    <p>Дуже цікаві локації для дітей</p>
+    <a class="btn" href="#spain">Відкрити</a>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1526129318478-62ed807ebdf9" />
+    <h3>Італія</h3>
+    <p>Смачна кухня та древня історія</p>
+    <a class="btn" href="#italy">Відкрити</a>
+  </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b" />
+    <h3>Нідерланди</h3>
+    <p>Канали, архітектура та затишок</p>
+    <a class="btn" href="#netherlands">Відкрити</a>
+  </div>
+</div>
+
+<h2>Погода по місяцях:</h2>
+<table border="1" cellpadding="8" cellspacing="0">
+<tr><th>Місяць</th><th>Температура</th><th>Опади</th></tr>
+<tr><td>Квітень</td><td>18–22°C</td><td>Низькі</td></tr>
+<tr><td>Травень</td><td>22–26°C</td><td>Низькі</td></tr>
+<tr><td>Червень</td><td>26–30°C</td><td>Середні</td></tr>
+</table>
+
+<h2>Приблизний бюджет на 7 днів:</h2>
+<ul>
+<li>Переліт: 150–250€</li>
+<li>Житло: 200–350€</li>
+<li>Харчування: 120–180€</li>
+<li>Розваги: 70–120€</li>
+</ul>
+</body>
+</html>
+
+<!-- Spain Page -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Іспанія — Подорож</title>
+<style>body{font-family:Arial;padding:20px;line-height:1.6}</style>
+</head>
+<body>
+<h1 id="spain">Іспанія</h1>
+<p><b>Коли їхати:</b> квітень–жовтень</p>
+<p><b>Вартість поїздки:</b> від 600€ на людину</p>
+<h2>Що подивитись:</h2>
+<ul>
+<li>Барселона — Саграда Фамілія, парк Гуель</li>
+<li>Мадрид — Королівський палац, Прадо</li>
+<li>Коста-Брава — найкрасивіші пляжі</li>
+</ul>
+<h2>Розваги:</h2>
+<ul>
+<li>Фламенко-шоу</li>
+<li>Аквапарки «Aqua Brava» та «Siam Park»</li>
+<li>Поїздка на кораблику уздовж узбережжя</li>
+</ul>
+<h2>Готелі:</h2>
+<ul>
+<li>Готелі біля центрів міст</li>
+<li>Готелі з сніданками</li>
+<li>Апартаменти для сімей</li>
+</ul>
+<h2>Їжа:</h2>
+<ul>
+<li>Місцеві кафе</li>
+<li>Національні страви</li>
+<li>Пекарні та десерти</li>
+</ul>
+<h2>Поради:</h2>
+<ul>
+<li>Орендувати велосипеди</li>
+<li>Уникати пікових годин</li>
+<li>Заздалегідь купувати квитки</li>
+</ul>
+<h2>Що взяти з собою:</h2>
+<ul>
+<li>Зручний рюкзак</li>
+<li>Водонепроникний одяг</li>
+<li>Телефон з навігацією</li>
+</ul>
+<h2>Карта:</h2>
+<p><i>Тут може бути карта з головними місцями.</i></p>
+<h2>Готелі:</h2>
+<ul>
+<li>Сімейні готелі 3–4★</li>
+<li>Готелі з басейнами та анімацією</li>
+<li>Зручне розташування біля пляжів</li>
+</ul>
+<h2>Їжа:</h2>
+<ul>
+<li>Місцева кухня</li>
+<li>Популярні страви</li>
+<li>Сімейні ресторани</li>
+</ul>
+<h2>Поради:</h2>
+<ul>
+<li>Планувати екскурсії наперед</li>
+<li>Перевіряти час роботи музеїв</li>
+<li>Мати страховку</li>
+</ul>
+<h2>Що взяти з собою:</h2>
+<ul>
+<li>Комфортний одяг</li>
+<li>Парасольку</li>
+<li>Документи та копії</li>
+</ul>
+<h2>Карта:</h2>
+<p><i>Можна додати карту міста або регіону.</i></p>
+<h2>Готелі:</h2>
+<ul>
+<li>Сімейні готелі 3–4★ з басейнами</li>
+<li>Готелі біля узбережжя</li>
+<li>Готелі з дитячими майданчиками</li>
+</ul>
+<h2>Їжа:</h2>
+<ul>
+<li>Місцеві ресторани та кафе</li>
+<li>Національні страви</li>
+<li>Популярні десерти</li>
+</ul>
+<h2>Поради:</h2>
+<ul>
+<li>Бронювати заздалегідь</li>
+<li>Враховувати погоду</li>
+<li>Перевіряти відгуки</li>
+</ul>
+<h2>Що взяти з собою:</h2>
+<ul>
+<li>Зручне взуття</li>
+<li>Крем від сонця</li>
+<li>Повербанк</li>
+</ul>
+<h2>Карта:</h2>
+<p><i>Тут може бути інтерактивна карта або зображення.</i></p>
+</body>
+</html>
+
+<!-- Italy Page -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Італія — Подорож</title>
+<style>body{font-family:Arial;padding:20px;line-height:1.6}</style>
+</head>
+<body>
+<h1 id="italy">Італія</h1>
+<p><b>Коли їхати:</b> травень–вересень</p>
+<p><b>Вартість поїздки:</b> від 700€ на людину</p>
+<h2>Що подивитись:</h2>
+<ul>
+<li>Рим — Колізей, Пантеон, Ватикан</li>
+<li>Венеція — гондоли та канали</li>
+<li>Флоренція — центр мистецтва та архітектури</li>
+</ul>
+<h2>Розваги:</h2>
+<ul>
+<li>Дегустація піци та пасти</li>
+<li>Гондольна подорож у Венеції</li>
+<li>Пляжі Сардинії та Сицилії</li>
+</ul>
+</body>
+</html>
+
+<!-- Netherlands Page -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Нідерланди — Подорож</title>
+<style>body{font-family:Arial;padding:20px;line-height:1.6}</style>
+</head>
+<body>
+<h1 id="netherlands">Нідерланди</h1>
+<p><b>Коли їхати:</b> квітень–вересень</p>
+<p><b>Вартість поїздки:</b> від 650€ на людину</p>
+<h2>Що подивитись:</h2>
+<ul>
+<li>Амстердам — канали, музей Ван Гога</li>
+<li>Кейкенгоф — знамениті поля тюльпанів</li>
+<li>Утрехт — старовинні набережні та вежі</li>
+</ul>
+<h2>Розваги:</h2>
+<ul>
+<li>Прогулянка на велосипедах</li>
+<li>Круїз каналами Амстердама</li>
+<li>Поїздка в вітряні млини Заансе-Сханс</li>
+</ul>
+</body>
+</html>
